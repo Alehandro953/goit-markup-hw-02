@@ -1,0 +1,21 @@
+body {
+  font-family: Roboto, Raleway;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.logo {
+  color: #2196f3;
+}
+
+/*  заголовок #FFFFFF */
+/* текст #212121 */
+/* мілкий текст #757575 */
+/* ефект фокуса #2196F3 */
+/* фон #E5E5E5 */
+/* футер #2F303A */
