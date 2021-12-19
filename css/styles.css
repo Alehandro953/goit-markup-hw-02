@@ -1,3 +1,11 @@
+:root {
+  --header-color: #212121;
+  --first-title-color: #ffffff;
+  --btn-color: #188ce8;
+  --accent-color: #2196f3;
+  --second-title-color: #757575;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +30,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: #000000;
 }
 
@@ -31,13 +38,16 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--header-color);
 }
 
 .header-link:hover,
-.header-link:focus {
-  color: #2196f3;
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
 }
 
 .header-mail,
@@ -46,15 +56,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--second-title-color);
 }
 
-.header-mail:hover,
-.header-tel:hover,
-.header-tel:focus,
-.header-mail:focus {
-  color: #2196f3;
-}
+/* -------------------------------------------HERO------------------------------ */
 
 .hero {
   background-color: #2f303a;
@@ -67,7 +72,19 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--first-title-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: var(--btn-color);
 }
 
 /*  заголовок #FFFFFF */
