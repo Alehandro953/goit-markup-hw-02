@@ -50,6 +50,10 @@ body {
   color: var(--accent-color);
 }
 
+.header-nav .header-link.current {
+  color: var(--accent-color);
+}
+
 .header-mail,
 .header-tel {
   font-weight: 500;
@@ -83,10 +87,116 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  cursor: pointer;
+  color: var(--first-title-color);
   background-color: var(--btn-color);
 }
 
+.hero-btn-2 {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  cursor: pointer;
+}
+
+.hero-btn-2:hover,
+.hero-btn-2:focus {
+  color: var(--accent-color);
+}
+
+.hero-btn-2-current {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  cursor: pointer;
+}
+
+.hero-btn-2-current {
+  background-color: var(--accent-color);
+}
+
+/* -----------------------------------Hidden------------------------------- */
+
+.hidden-semi-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+
+.hidden-after-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.spec-title,
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.team-semi-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.team-after-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.contacts {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--first-title-color);
+}
+
+.location {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+
+.footer-mail,
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
 /*  заголовок #FFFFFF */
 /* текст #212121 */
 /* мілкий текст #757575 */
