@@ -1,16 +1,20 @@
 :root {
   --header-color: #212121;
+  --text-color: #000000;
   --first-title-color: #ffffff;
   --btn-color: #188ce8;
   --accent-color: #2196f3;
   --second-title-color: #757575;
+  --hero-background: #2f303a;
+  --team-background: #f5f4fa;
+  --footer-text: rgba(255, 255, 255, 0.6);
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--text-color);
   background-color: var(--first-title-color);
 }
 
@@ -25,7 +29,7 @@ body {
 /* ---------------------------------HEADER--------------------------- */
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link-portfolio,
@@ -35,7 +39,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #000000;
+  color: var(--text-color);
 }
 
 .header-link {
@@ -71,7 +75,7 @@ body {
 /* -------------------------------------------HERO------------------------------ */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-background);
 }
 
 .hero-title {
@@ -110,7 +114,8 @@ body {
 
 .hero-btn-portfolio:hover,
 .hero-btn-portfolio:focus {
-  color: var(--accent-color);
+  color: var(--first-title-color);
+  background-color: var(--accent-color);
 }
 
 .hero-btn-portfolio-current {
@@ -125,12 +130,13 @@ body {
 }
 
 .hero-btn-portfolio-current {
+  color: var(--first-title-color);
   background-color: var(--accent-color);
 }
 
 .project-link {
   text-decoration: none;
-  color: #000000;
+  color: var(--text-color);
 }
 
 /* -----------------------------------Hidden------------------------------- */
@@ -151,7 +157,7 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-background);
 }
 
 .spec-title,
@@ -202,7 +208,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text);
 }
 /*  заголовок #FFFFFF */
 /* текст #212121 */
